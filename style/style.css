@@ -1,0 +1,162 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 100%;
+  background-color: #dfdfdf;
+}
+
+section {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: local("SF UI Display");
+  url: "../fonts/SFUIDisplay-Black.woff";
+}
+.header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  background-color: #000000;
+}
+
+.inner_menu {
+  display: flex;
+  width: 80%;
+  height: auto;
+  min-height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner_menu a {
+  font-family: SF UI Display;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.inner_menu a img {
+  margin-right: 20px;
+}
+
+.nev_menu {
+  display: flex;
+  width: 20%;
+  height: auto;
+  min-height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 150px;
+  height: 40px;
+  min-height: auto;
+  background-color: #e60808;
+}
+.box a {
+  font-family: SF UI Display;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.input_content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  background-color: #000000;
+  flex-direction: column;
+}
+.input_content p {
+  font-family: SF UI Display;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.line {
+  width: 75%;
+  height: 1px;
+  min-height: auto;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.main_block {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+}
+
+.button_one {
+  display: flex;
+  width: 35px;
+  height: 26px;
+  min-height: auto;
+}
+
+.img_content {
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 2000px;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+}
+
+.img_content_one {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  height: auto;
+  min-height: 3000px;
+  background-color: #828282;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.img_content_two {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  height: auto;
+  min-height: 3000px;
+  background-color: #828282;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.img_content_tree {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  height: auto;
+  min-height: 3000px;
+  background-color: #828282;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/*# sourceMappingURL=style.css.map */
