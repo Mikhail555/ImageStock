@@ -12,63 +12,55 @@ $white: #FFFFFF
     @include flex(80%, auto ,auto )
     justify-content: space-between
     align-items: center
-    // background-color: #fff
     a
-        font-family: SF UI Display
-        font-size: 24px
-        line-height: 29px
-        color: #FFFFFF
+        @include text( 18px, white , inherit, initial , inherit , auto ) 
         img
-            margin-right: 20px
+            margin-right: 10px
 .nev_menu
-    @include flex(20%, auto ,80px )
+    @include flex(18%, auto ,80px )
     justify-content: space-between
     align-items: center
-    // background-color: #1be608
 .box 
     @include size(150px, 40px ,auto )
     background-color: $black
     a
-        font-family: SF UI Display
-        font-size: 13px
-        line-height: 16px  
+        @include text( 13px, white, inherit, initial , inherit , auto )         
 .input_content
     @include flex-center(100%, auto ,250px )
     background-color: $black
     flex-direction: column
-    
     p
-        font-family: SF UI Display
-        font-size: 15px
-        line-height: 20px
-        color: $white
-        margin-top: 15px   
+        @include text( 15px, white , inherit, initial , inherit , auto ) 
+        margin-top: 20px          
+input
+    @include btn(206px, 86px ,auto )
+    background-color: $black
+    @include text( 72px , white , inherit, initial , inherit , auto )   
 .line
     @include size(75%, 1px ,auto )
     background-color: $white
-    margin-top: 20px
 .main_block
     @include flex-center(100%, auto , 80px )
+    background-color: $white
 .button_one
     @include flex(35px, 26px , auto )
 .img_content
-    @include flex(100%, auto , 2000px )
+    @include flex(100%, auto , auto )
     background-color: $white
-    justify-content: space-around
-    
+    justify-content: space-around   
 .img_content_one
-    @include flex-center(30%, auto , 3000px )
-    background-color: $gray_for_Text
+    @include flex-center(30%, auto , auto )
+    background-color: $white
     flex-direction: column
     justify-content: flex-start
 .img_content_two
-    @include flex-center(30%, auto , 3000px )
-    background-color: $gray_for_Text
+    @include flex-center(30%, auto , auto )
+    background-color: $white
     flex-direction: column
     justify-content: flex-start
 .img_content_tree
-    @include flex-center(30%, auto , 3000px )
-    background-color: $gray_for_Text
+    @include flex-center(30%, auto , auto )
+    background-color: $white
     flex-direction: column
     justify-content: flex-start
     
