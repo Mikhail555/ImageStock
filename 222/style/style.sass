@@ -1,0 +1,58 @@
+@import "_mixins"
+
+$black: #000000  
+$gray_for_Text: #828282
+$white: #FFFFFF
+
+
+.header 
+    @include flex-center(100%, auto ,auto )
+    background-color: $black
+.inner_menu
+    @include flex(80%, auto ,auto )
+    justify-content: space-between
+    align-items: center
+    a
+        @include text( 18px, white , inherit, initial , inherit , auto ) 
+        img
+            margin-right: 10px
+.nev_menu
+    @include flex(25%, auto ,80px )
+    justify-content: space-between
+    align-items: center
+.box 
+    @include size(150px, 40px ,auto )
+    background-color: $black
+    a
+        @include text( 13px, white, inherit, initial , inherit , auto )
+.main_content
+    @include flex-center(100%, auto , 200px  )
+    @include text(30px, black , inherit, initial , inherit , auto )
+    background-color: $white
+.main_block
+    @include flex-center(100%, auto , 200px )
+    background-color: $white
+.button_one
+    @include flex(35px, 26px , auto )
+.img_content
+    @include flex(100%, auto , auto )
+    background-color: $white
+    justify-content: space-around   
+.img_content_one
+    @include flex-center(30%, auto , auto )
+    background-color: $white
+    flex-direction: column
+    justify-content: flex-start
+.img_content_two
+    @include flex-center(30%, auto , auto )
+    background-color: $white
+    flex-direction: column
+    justify-content: flex-start
+.img_content_tree
+    @include flex-center(30%, auto , auto )
+    background-color: $white
+    flex-direction: column
+    justify-content: flex-start
+    
+    
+    
