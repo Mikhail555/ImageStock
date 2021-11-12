@@ -55,7 +55,7 @@ a {
 
 .nev_menu {
   display: flex;
-  width: 18%;
+  width: 20%;
   height: auto;
   min-height: 80px;
   justify-content: space-between;
@@ -63,7 +63,7 @@ a {
 }
 
 .box {
-  width: 150px;
+  width: 180px;
   height: 40px;
   min-height: auto;
   background-color: #000000;
