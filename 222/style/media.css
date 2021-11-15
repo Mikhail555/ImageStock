@@ -23,73 +23,22 @@
     .nev_menu { 
       width: 29%;
      }     
-  .inner_menu {
-    width: 80%;
-  }
-  .img_content_one img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_two img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_tree img {
-    width: 400px;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 1605px) {
     .nev_menu { 
       width: 37%;
      }     
-  .inner_menu {
-    width: 80%;
-  }
-  .img_content_one img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_two img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_tree img {
-    width: 400px;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 1255px) {
     .nev_menu { 
       width: 45%;
      }     
-  .inner_menu {
-    width: 80%;
-  }
-  .img_content_one img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_two img {
-    width: 400px;
-    height: auto;
-  }
-  .img_content_tree img {
-    width: 400px;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 1150px) {
-    .nev_menu { 
-      width: 45%;
-     }     
-  .inner_menu {
-    width: 80%;
-  }
-  .img_content_one img {
+ .img_content_one img {
     width: 300px;
     height: auto;
   }
@@ -110,33 +59,9 @@
     span {
         display: none;
     }
-  .inner_menu {
-    width: 80%;
-  }
-  .img_content_one img {
-    width: 300px;
-    height: auto;
-  }
-  .img_content_two img {
-    width: 300px;
-    height: auto;
-  }
-  .img_content_tree img {
-    width: 300px;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 860px) {
-    .nev_menu { 
-      width: 30%;
-     }   
-    span {
-        display: none;
-    }
-  .inner_menu {
-    width: 80%;
-  }
   .img_content_one img {
     width: 215px;
     height: auto;
@@ -152,15 +77,9 @@
 }
 
 @media screen and (max-width: 615px) {
-    .nev_menu { 
+  .nev_menu { 
       width: 40%;
      }   
-    span {
-        display: none;
-    }
-  .inner_menu {
-    width: 80%;
-  }
   .img_content_one img {
     width: 150px;
     height: auto;
@@ -176,15 +95,6 @@
 }
 
 @media screen and (max-width: 432px) {
-    .nev_menu { 
-      width: 40%;
-     }   
-    span {
-        display: none;
-    }
-  .inner_menu {
-    width: 80%;
-  }
   .img_content {
     width: 100%;
     display: inline-block;

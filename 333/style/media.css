@@ -30,13 +30,6 @@
   .inner_menu {
     width: 80%;
   }
-  .block {
-    width: 100%;
-  }
-  .download {
-    width: 25%;
-    height: auto;
-  }
   .wooman {
     width: 1200px;
     height: 790px;
@@ -44,15 +37,6 @@
 }
 
 @media screen and (max-width: 1450px) {
-    .nev_menu { 
-      width: 37%;
-     }     
-  .inner_menu {
-    width: 80%;
-  }
-  .block {
-    width: 100%;
-  }
   .download {
     width: 30%;
     height: auto;
@@ -89,12 +73,6 @@
     .nev_menu { 
       width: 45%;
      }     
-  .inner_menu {
-    width: 80%;
-  }
-  .block {
-    width: 100%;
-  }
   .download {
     width: 35%;
     height: auto;
@@ -108,12 +86,15 @@
   }
 }
 
-
 @media screen and (max-width: 1120px) {
     .wooman {
     width: 850px;
     height: 790px;
     } 
+    .wooman img {
+      width: 850px;
+    height: 790px;
+    }
     .download {
     width: 40%;
     height: auto;
@@ -121,22 +102,39 @@
     span {
     display: none;
     }
+
 }
 
 @media screen and (max-width: 990px) {
-    .wooman img {
+    .wooman {
     width: 750px;
     height: 600px;
+    display: inline-block;
     } 
+    .wooman img {
+      width: 750px;
+    height: 600px;
+    }
+    .tags { 
+    justify-content: flex-start;
+    }
+    .all_btn {
+      justify-content: flex-start;
+    }
     .download {
     width: 50%;
     height: auto;
     } 
-    span {
-    display: none;
-    }
     .all_btn {
     width: 100%;
+    }
+    .block_info {
+      min-height: 700px;
+    }
+    .all_content {
+      background: none;
+      background-color: #E5E5E5;
+      min-height: 700px;
     }
 }
 
@@ -148,12 +146,17 @@
     width: 70%;
     height: auto;
   }
+  .wooman {
+    width: 650px;
+    height: 500px;
+    display: inline-block;
+  }
   .wooman img {
     width: 650px;
     height: 500px;
   }
   .navigation {
-    width: 40%;
+    width: 50%;
   }
   .all_images_one img {
     width: 215px;
@@ -171,18 +174,41 @@
 }
 
 @media screen and (max-width: 735px) {
+    .wooman {
+      width: 550px;
+      height: 400px;
+      display: inline-block;
+    }
     .wooman img {
       width: 550px;
       height: 400px;
     }
+    .download img {
+      display: none;
+  }
+    .download::before {
+      content: url("../image/Group\ 3.svg");
+      margin-left: 150px;
+    }
+    .navigation {
+      width: 60%;
+    }
+    .block_info {
+      min-height: 570px;
+    }
+    .all_content {
+      min-height: 570px;
+    }
 }
 @media screen and (max-width: 635px) {
+    .wooman {
+      width: 500px;
+      height: 400px;
+      display: inline-block;
+    }
     .wooman img {
       width: 500px;
       height: 400px;
-    }
-    .download img {
-        display: none;
     }
     .all_images_one img {
         width: 150px;
@@ -199,14 +225,27 @@
 }
 
 @media screen and (max-width: 570px) {
+    .wooman {
+      width: 450px;
+      height: 300px;
+      display: inline-block;
+    }
     .wooman img {
       width: 450px;
       height: 300px;
+    }
+    .navigation {
+      width: 80%;
     }
     
 }
 
 @media screen and (max-width: 515px) {
+    .wooman {
+      width: 400px;
+      height: 300px;
+      display: inline-block;
+    }
     .wooman img {
       width: 400px;
       height: 300px;
@@ -215,9 +254,17 @@
 }
 
 @media screen and (max-width: 460px) {
+    .wooman {
+      width: 350px;
+      height: 250px;
+      display: inline-block;
+    }
     .wooman img {
       width: 350px;
       height: 250px;
+    }
+    .download::before {
+      margin-left: 85px;
     }
     .all_images {
         width: 100%;
@@ -241,18 +288,61 @@
         line-height: 21px;
 
     }
+    .navigation {
+      width: 90%;
+    }
+    .block_info {
+      min-height: 330px;
+    }
+    .all_content {
+      min-height: 330px;
+    }
+    .tags {
+      font-family: SF UI Display;
+      font-size: 18px;
+      line-height: 21px;
+    }
 }
 
 @media screen and (max-width: 405px) {
+    .wooman {
+      width: 300px;
+      height: 200px;
+      display: inline-block;
+    }
     .wooman img {
       width: 300px;
       height: 200px;
     }
+    .navigation {
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 345px) {
+  .nev_menu { 
+    width: 40%;
+   }   
+  .inner_menu {
+    width: 80%;
+  }
+  .wooman {
+      width: 250px;
+      height: 150px;
+      display: inline-block;
+    }
     .wooman img {
       width: 250px;
       height: 150px;
     }
+    .download::before {
+      margin-left: 40px;
+    }
+  .all_btn {
+    width: 100%;
+  }
+  .navigation {
+    display: inline-block;
+    width: 90%;
+  }
 }
